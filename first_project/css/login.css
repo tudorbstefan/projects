@@ -1,0 +1,89 @@
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.site-name-top {
+    font-size: 2em;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.login-box {
+    position: relative;
+    width: 300px;
+    margin: 20px auto 50px;
+    padding-bottom: 50px;
+    background: white;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    -moz-box-shadow: 0 0 3px rgb(193, 193, 193);
+    -webkit-box-shadow: 0 0 3px rgb(193, 193, 193);
+    box-shadow: 0 0 3px rgb(193, 193, 193);
+}
+
+.login-box header {
+    height: unset;
+    display: flex;
+    justify-content: center;
+}
+
+.login-box h2 {
+    font-size: 1.5em;
+    color: #939394;
+}
+
+.login-box label, .login-box input {
+    display: block;
+    width: 100%;
+}
+
+.login-box label {
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.login-box label:last-of-type {
+    padding-top: 30px;
+}
+
+.login-box button {
+    margin: 25px 0 0;
+    outline: 0;
+}
+
+.login-box i {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#icon-username-wrong {
+    visibility: hidden;
+    padding-top: 93px;
+    padding-right: 55px;
+    color: red;
+}
+
+#icon-username-right {
+    visibility: hidden;
+    padding-top: 93px;
+    padding-right: 55px;
+    color: green;
+}
+
+#icon-password-wrong {
+    visibility: hidden;
+    padding-top: 171px;
+    padding-right: 55px;
+    color: red;
+}
+
+#icon-password-right {
+    visibility: hidden;
+    padding-top: 171px;
+    padding-right: 55px;
+    color: green;
+}
