@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="script.js" defer></script>
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cairo:wght@300&family=Play:wght@700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style/reset.css">
+	<link rel="stylesheet" type="text/css" href="style/project.css">
+	<title>Razvan & Tudor</title>
+</head>
+<body>
+	<div class="box">
+		<div class="menu-box">
+			<div id="category-box">
+				<button id="category-button">Categories</button>
+				<ol id="category-list"></ol>
+			</div>
+			<form id="formular" method="POST" action="">
+				<label>Id:</label><input type="text" id="productID" required><br>
+				<label>Name: </label><input type="text" id="name" required><br>
+				<label>Description: </label><input type="text" id="description"><br>
+				<label>Price: </label><input type="text" id="price"><br>
+				<label>Image: </label><input type="text" id="image"><br>
+				<label>Quantity: </label><input type="text" id="quantity"><br>
+				<input type="button" name="submit" id="submitBtn" value="Trimitere">
+			</form>
+		</div>
+		<div id="products-box" class="products-box">
+			<h1 id="category-title"></h1>
+			<div id="product-list">
+				
+			</div>
+		</div>
+</body>
+</body>
+</html>

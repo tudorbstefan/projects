@@ -1,0 +1,213 @@
+body {
+    padding: 0px 150px;
+    background-color: #FFFFFF;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    min-height: -webkit-fill-available;
+}
+
+.menu-box {
+    flex: 1;
+    background-color: #B8E2F2;
+    padding-top: 25px;
+    padding-left: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-right: darkgray solid 2px;
+}
+
+#category-list {
+    align-self: flex-start;
+    margin-bottom: 50px;
+}
+
+#formular {
+    transition: ease-in 0.4s;
+    padding-bottom: 15px;
+}
+
+#formular label {
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    margin: 3px 0 2px 0;
+}
+
+#formular label :first-of-type {
+    margin-top: 0;
+}
+
+#formular input[type=text] {
+    border-radius: 2px;
+    border-width: 1px;
+    height: 1.5em;
+    margin-bottom: 5px;
+    width: 80%;
+}
+
+#formular input[name=submit] {
+    margin: 15px 0 0 0;
+    padding: 7px 14px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family:'Roboto',sans-serif;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #4eb5f1;
+    text-align: center;
+}
+
+#formular input[name=submit]:hover{
+    background-color: #4095c6;
+}
+
+.products-box {
+    flex: 5;
+    background-color: #C9DBE5;
+}
+
+#category-title {
+    background-color: #B8E2F2;
+    border: darkgray solid 2px;
+    display: inline-block;
+    text-align: center;
+    margin: 20px 0 30px;
+    margin-left: -2px;
+    border-left: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Roboto',sans-serif;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+}
+
+#product-list {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#product-list article {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: 0 15px 50px 0;
+    width: 280px;
+    overflow: hidden;
+    border-radius: 7px;
+    -webkit-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.10);
+    -moz-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.10);
+    box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.10);
+}
+
+#product-list article div {
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+}
+
+#product-list article button {
+    width: 50%;
+    margin: 0 0 10px;
+    align-self: flex-end;
+    border: none;
+    border-radius: 10px 0 0 10px;
+    font-size: 15px;
+    font-family:'Roboto',sans-serif;
+    font-weight: 400;
+    color: #FFFFFF;
+    background-color: lightskyblue;
+    text-align: center;
+}
+
+#product-list article button:hover{
+    background-color: rgb(99, 191, 248);
+}
+
+#titleID {
+    color: #213159;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    font-size: 25px;
+    letter-spacing: 1px;    
+    margin: 5px 0;
+    padding: 5px;
+}
+
+#descriptionID{
+    color: #3D6098;
+    margin-bottom: 5px;
+    padding: 0 15px;
+    font-family: 'Cairo', sans-serif;
+    font-size: 17px;
+}
+
+#priceID{
+    color: #F04B4C;
+    align-self: flex-start;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 15px;
+    font-family: 'Play', sans-serif;
+    font-size: 20px;
+}
+
+#imageID{
+    width: 78%;
+    height: 220px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+#category-button {
+    margin: 15px 0 0 0;
+    padding: 7px 14px;
+    width: 80%;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family:'Roboto',sans-serif;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #4eb5f1;
+    text-align: center;
+}
+
+#category-button:hover{
+    background-color: #4095c6;
+}
+
+#category-list li {
+    margin: 10px 0;
+    font-family:'Roboto',sans-serif;
+    text-align: center;
+    width: 80%;
+    border-radius: 5px;
+    background-color: #77a4be;
+    color: #1e1e1e;
+    padding: 7px 0;
+}
+
+#category-list li:first-of-type {
+    margin: 20px 0 10px;
+    font-family:'Roboto',sans-serif;
+}
+
+#category-list li:last-of-type {
+    margin: 10px 0 0;
+    font-family:'Roboto',sans-serif;
+}
+
+#category-list li:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
