@@ -1,0 +1,146 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+    <!-- Title & Title Icon -->
+    <title>Tudor's Gadgets</title>
+    <link rel="icon" type="image/png" href="./images/title-icon.png">
+    <!-- Cascade Style Sheets -->
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/contact.css"/>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Literata&display=swap" rel="stylesheet">
+    <!-- FontAwesome Library -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <base href="test.html" target="_self">
+    <!-- Meta Elements -->
+    <base href="test.html" target="_self">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="keyworkd" content="Shop, Ecommerce, Gadgets, Technology">
+    <meta name="description" content="Online shop for your favorite gadgets and technology pieces">
+    <meta name="author" content="Tudor Bodenlosz">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- jQuery Library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Thumbnail Redirects To Link When Clicked -->
+    <script src="scripts/thumbnail.js"></script> 
+    <!-- Verify If User Is Logged In -->
+    <script src="scripts/logged.js"></script>
+</head>
+
+<body onload="verifyLogState()">
+    <header class="padding-left-right-40">
+        <div class="site-name">
+            <h1><a href="index.html" target="_self">Tudor's Gadgets</a></h1>
+        </div>
+        <nav class="dropdown">
+            <button class="dropdown-button">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="index.html" target="_self">Home</a>
+                <a href="about.html" target="_self">About</a>
+                <a href="contact.html" target="_self">Contact</a>
+                <a href="index.html" target="_self">Button 4</a>
+                <a href="index.html" target="_self">Button 5</a>
+            </div>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Search products & brands">
+            <i class="fas fa-search"></i>
+        </div>
+        <div class="fav-button">
+            <a href="favorite.html" target="_self">
+                <i class="far fa-star"></i>
+            </a>
+            </div>
+        <div class="login">
+            <a href="soontobe.html" target="_self" id="login-text">Login</a>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <header>
+                <h2>CONTACT US</h2>
+            </header>
+
+            <div class="form padding-left-right-40">
+                <form action="/action_page.php" method="get" class="" id="contact-us" novalidate="novalidate">
+                    <label for="first-name">First name</label>
+                    <input type="text" name="first-name" id="first-name" placeholder="Type in your first name..." maxlength="20">
+                    <label for="last-name">Last name</label>
+                    <input type="text" name="last-name" id="last-name" placeholder="Type in your last name..." maxlength="25">
+                    <label for="your message">Message</label>
+                    <textarea name="message" id="your-message" form="contact-us" placeholder="Type your message inside..." rows="12"></textarea>
+                    <input type="submit">
+                </form>
+            </div>
+        </section>
+    </main>
+     
+    <footer>
+        <div class="links">
+            <div class="column padding-left-right-40">
+                <h3 class="footer-logo">Tudor's Gadgets</h3>
+                <p class="footer-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="column">
+                <p class="links-title">POLICY INFO</p> 
+                <ul class="links-list">
+                    <li><a href="" target="_blank">Privacy Policy</a></li>
+                    <li><a href="" target="_blank">Terms of Sale</a></li>
+                    <li><a href="" target="_blank">Terms of Use</a></li>
+                    <li><a href="" target="_blank">Report Abuse</a></li>
+                    <li><a href="" target="_blank">ANPC Policy</a></li>
+                </ul>   
+            </div>
+            <div class="column">
+                <p class="links-title">COMPANY</p>
+                <ul class="links-list">
+                    <li><a href="./about.html" target="_blank">About Us</a></li>
+                    <li><a href="" target="_blank">Blog</a></li>
+                    <li><a href="" target="_blank">Sitemap</a></li>
+                    <li><a href="" target="_blank">FAQ</a></li>
+                    <li><a href="./contact.html" target="_blank">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="column">
+                <p class="links-title">BUSINESS</p>
+                <ul class="links-list">
+                    <li><a href="" target="_blank">Sell With Us</a></li>
+                    <li><a href="" target="_blank">Advertising</a></li>
+                    <li><a href="" target="_blank">Media Enquiries</a></li>
+                    <li><a href="" target="_blank">Affiliation</a></li>
+                    <li><a href="" target="_blank">B2B Proposals</a></li>
+                </ul>
+            </div>
+            <div class="column last-column padding-left-right-40">
+                <p class="links-title">SUBSCRIBE</p>
+                <div class="footer-subscribe">
+                    <div class="footer-form">
+                        <form action="test.html">
+                            <input type="email" placeholder="Your email address" id="subscribe" required>
+                            <input type="submit" id="subscribe">
+                        </form>
+                    </div>
+                    <div class="social">
+                        <i class="fab fa-facebook-square facebook"></i>
+                        <i class="fab fa-instagram instagram"></i>
+                        <i class="fab fa-twitter-square twitter"></i>
+                        <i class="fab fa-linkedin linkedin"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+                <strong> &copy; Copyright</strong> 2019 - Tudor's Gadgets &nbsp; <hr> &nbsp;  Website <strong>created</strong> and <strong>optimized</strong> by <em>Tudor Bodenlosz</em>
+        </div>
+    </footer>
+
+    </body>
+</html>

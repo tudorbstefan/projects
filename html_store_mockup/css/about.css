@@ -1,0 +1,46 @@
+.about-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    background: rgb(42, 118, 211);;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+section h2 {
+    flex: 1;
+    padding-top: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
+    font-weight: bold;
+    color: #939394;
+}
+
+section h3 {
+    flex: 1;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    padding-bottom: 50px;
+}
+
+.about-content p {
+    font-size: 1em;
+    text-align: justify;
+    text-justify: inter-word;
+    color: #000000;
+    padding-top: 50px;
+}
+
+.about-content p::first-letter { 
+    font-size: 2em;
+    color: #606060;
+  }
+
+  .about-content p:last-of-type { 
+    padding-bottom: 50px;
+  }
