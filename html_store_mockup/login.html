@@ -1,0 +1,121 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+    <!-- Title & Title Icon -->
+    <title>Tudor's Gadgets</title>
+    <link rel="icon" type="image/png" href="./images/title-icon.png">
+    <!-- Cascade Style Sheets -->
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/login.css"/>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Literata&display=swap" rel="stylesheet">
+    <!-- FontAwesome Library -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <base href="test.html" target="_self">
+    <!-- Meta Elements -->
+    <base href="test.html" target="_self">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="keyworkd" content="Shop, Ecommerce, Gadgets, Technology">
+    <meta name="description" content="Online shop for your favorite gadgets and technology pieces">
+    <meta name="author" content="Tudor Bodenlosz">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- jQuery Library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Thumbnail Redirects To Link When Clicked -->
+    <script src="scripts/thumbnail.js"></script>
+    <!-- Login Verifier  -->
+    <script src="scripts/login.js"></script>
+</head>
+
+<body>
+    <header class="padding-left-right-40 site-name-top">
+        <div class="site-name">
+            <h1><a href="index.html" target="_self">Tudor's Gadgets</a></h1>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <div class="login-box padding-left-right-40">
+                <header>
+                    <h2 class="login-title">Hello!</h2>
+                </header>
+                <label for="username">Username</label>
+                <input type="text" id="username" onkeyup="verifyCredentials(event, this.value)">
+                <i class="fas fa-times-circle" id="icon-username-wrong"></i>
+                <i class="fas fa-check-circle" id="icon-username-right"></i>
+                <label for="password">Password</label>
+                <input type="password" id="password" onkeyup="verifyCredentials(event, this.value)">
+                <i class="fas fa-times-circle" id="icon-password-wrong"></i>
+                <i class="fas fa-check-circle" id="icon-password-right"></i>
+                <button onclick="sendCredentials()">Login</button>
+            </div>
+        </section>
+    </main>
+     
+    <footer>
+        <div class="links">
+            <div class="column padding-left-right-40">
+                <h3 class="footer-logo">Tudor's Gadgets</h3>
+                <p class="footer-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="column">
+                <p class="links-title">POLICY INFO</p> 
+                <ul class="links-list">
+                    <li><a href="" target="_blank">Privacy Policy</a></li>
+                    <li><a href="" target="_blank">Terms of Sale</a></li>
+                    <li><a href="" target="_blank">Terms of Use</a></li>
+                    <li><a href="" target="_blank">Report Abuse</a></li>
+                    <li><a href="" target="_blank">ANPC Policy</a></li>
+                </ul>   
+            </div>
+            <div class="column">
+                <p class="links-title">COMPANY</p>
+                <ul class="links-list">
+                    <li><a href="./about.html" target="_blank">About Us</a></li>
+                    <li><a href="" target="_blank">Blog</a></li>
+                    <li><a href="" target="_blank">Sitemap</a></li>
+                    <li><a href="" target="_blank">FAQ</a></li>
+                    <li><a href="./contact.html" target="_blank">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="column">
+                <p class="links-title">BUSINESS</p>
+                <ul class="links-list">
+                    <li><a href="" target="_blank">Sell With Us</a></li>
+                    <li><a href="" target="_blank">Advertising</a></li>
+                    <li><a href="" target="_blank">Media Enquiries</a></li>
+                    <li><a href="" target="_blank">Affiliation</a></li>
+                    <li><a href="" target="_blank">B2B Proposals</a></li>
+                </ul>
+            </div>
+            <div class="column last-column padding-left-right-40">
+                <p class="links-title">SUBSCRIBE</p>
+                <div class="footer-subscribe">
+                    <div class="footer-form">
+                        <form action="test.html">
+                            <input type="email" placeholder="Your email address" id="subscribe" required>
+                            <input type="submit" id="subscribe">
+                        </form>
+                    </div>
+                    <div class="social">
+                        <i class="fab fa-facebook-square facebook"></i>
+                        <i class="fab fa-instagram instagram"></i>
+                        <i class="fab fa-twitter-square twitter"></i>
+                        <i class="fab fa-linkedin linkedin"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+                <strong> &copy; Copyright</strong> 2019 - Tudor's Gadgets &nbsp; <hr> &nbsp;  Website <strong>created</strong> and <strong>optimized</strong> by <em>Tudor Bodenlosz</em>
+        </div>
+    </footer>
+
+    </body>
+</html>
