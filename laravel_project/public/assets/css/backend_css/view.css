@@ -1,0 +1,8 @@
+.edit-delete {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.edit-delete a {
+    width: 4.5em;
+}
